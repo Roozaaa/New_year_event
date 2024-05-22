@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header Section Started */
+.header {
+    position: relative;
+    left: 140px;
+    right: 140px;
+    top: 50px;
+    width: 1250px;
+    height: 600px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../resources/Banner Image.png");
+    /* background-image: url("../resources/Banner Image.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.header>p {
+    width: 259px;
+    position: relative;
+    top: 177px;
+    font-size: 32px;
+    font-family: Merriweather;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+
+.header>h1 {
+    padding-top: 16px;
+    width: 632px;
+    position: relative;
+    top: 200px;
+    font-size: 72px;
+    line-height: 95px;
+    font-weight: 900;
+    font-family: Merriweather;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+
+}
+
+/* Header Section Ended  */
+
+/* Main Section Started */
+
+/* Offer---------------> */
+.offer-wapper {
+    text-align: center;
+    align-items: center;
+}
+
+.offer-wapper>.offer {
+    padding-top: 120px;
+    width: 383px;
+    position: relative;
+    font-size: 88px;
+    display: inline-block;
+    font-family: Inter;
+    color: #ff0000;
+    text-align: center;
+}
+
+.offer-wapper>.offer-description {
+    padding-top: 48px;
+    width: 397px;
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Inter;
+    color: #ff0000;
+    text-align: center;
+    display: inline-block;
+}
+
+.offer-wapper>.categories {
+    padding-top: 16px;
+    width: 410px;
+    position: relative;
+    font-size: 48px;
+    display: inline-block;
+    font-family: Inter;
+    color: #070211;
+    text-align: center;
+}
+
+.offer-wapper>img {
+    padding-top: 48px;
+    width: 803px;
+    height: 500px;
+}
+
+/* party-------------------------------> */
+.party-wrapper {
+    margin-top: 120px;
+    position: relative;
+    left: 140px;
+    right: 140px;
+    width: 1250px;
+    position: relative;
+    border-radius: 16px;
+    height: 600px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.party-content {
+    padding-left: 120px;
+    padding-top: 126px;
+}
+
+.party-content>h1 {
+    width: 642px;
+    position: relative;
+    font-size: 64px;
+    letter-spacing: 0.11em;
+    line-height: 88px;
+    font-weight: 900;
+    font-family: Merriweather;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.party-content>p {
+    width: 697px;
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Inter;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    display: inline-block;
+}
+
+.party-content>a {
+    padding-top: 48px;
+    text-decoration: none;
+    width: 103px;
+    position: relative;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: Inter;
+    color: #fff;
+    text-align: center;
+}
+
+.party-img>img {
+    position: relative;
+    padding-right: 158px;
+    padding-top: 70px;
+}
+
+/* Main Section Ended */
